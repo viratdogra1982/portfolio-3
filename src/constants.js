@@ -24,6 +24,9 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import gtbitlogo from './assets/education_logo/gtbit_logo.png';
 import dspslogo from './assets/education_logo/dsps_logo.png';
 import tglogo from './assets/education_logo/tg_logo.png';
+import NIOS from './assets/education_logo/NIOS.jpeg';
+import mis from './assets/education_logo/mis.jpeg';
+import gurugobind from './assets/education_logo/gurugobind.jpeg';
 
 
 
@@ -73,7 +76,7 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: gtbitlogo,
+      img: gurugobind,
       school: "Delhi Institute of Technology and Management, Haryana",
       date: "Oct 2022 - July 2026",
       grade: "7.02 CGPA",
@@ -82,7 +85,7 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      img: dspslogo,
+      img: NIOS,
       school: "National Institute of Open Schooling, Delhi",
       grade: "67.2%",
       desc: "I completed my class 12 education from National Institute of Open Schooling, Delhi, under the NIOS board, where I studied Physics, Chemistry, and Mathematics (PCM).",
@@ -90,7 +93,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      img: tglogo,
+      img: mis,
       school: "Modern International School, Delhi",
       grade: "53%",
       desc: "I completed my class 10 education from Modern International School, Delhi, under the CBSE board, where I studied Science with Computer.",
