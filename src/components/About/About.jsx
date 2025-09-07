@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
+import Profile3 from '../../assets/work_logo/Profile3.png';
 
 
 
@@ -90,6 +91,7 @@ const About = () => {
             gyroscope={true}
           >
             <img
+              src={Profile3}
               alt="Virat Dogra"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
